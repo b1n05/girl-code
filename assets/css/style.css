@@ -154,16 +154,21 @@ article.post p {
 }
 
 aside {
-  background-color: #172635;
+  background-color: #EBC84B;
   color: #ffffff;
-  padding: 40px;
+  padding: 10px;
+  margin: 20px;
 }
 
 aside .container {
   display: flex;
-  gap: 40px;
-  justify-content: space-between;
+  gap: 20px;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+aside article {
+  width: 50%;
 }
 
 aside article h1 {
